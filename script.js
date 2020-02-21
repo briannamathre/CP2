@@ -91,7 +91,7 @@ document.getElementById("timeSubmit").addEventListener("click", function(event) 
       recipes += "</div>";
     recipes += "</div>";
   }
-  recipes+= '<ul class = "footer"> <li> <a href="https://github.com/briannamathre/creative1.git">GitHub</a></li></ul>';
+  recipes+= '<ul class = "footer"> <li> <a href="https://github.com/briannamathre/CP2.git">GitHub</a></li></ul>';
       console.log(recipes);
       document.getElementById("recipeResults").innerHTML = recipes;
     });
