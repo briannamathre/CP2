@@ -1,0 +1,460 @@
+html{
+    background-color: #fff1f3;
+    width: 950px;
+    justify-content: center;
+    margin: auto;
+}
+.footer {
+    position: absolute;
+    width: 885px;
+    background-color: white;
+	margin-left: 15px;
+   	margin-right:auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+}
+.footer li{
+    border: 0px;
+    padding-left:340px;
+    
+}
+.footer li a{
+	color: #231f20;
+	align-content: center;
+}
+
+.footer li a:hover{
+	color: #f8f4f3;
+}
+.footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 885px;
+    background-color: white;
+	margin-left: 15px;
+   	margin-right:auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+}
+.footer1 li{
+    border: 0px;
+    padding-left:340px;
+    
+}
+.footer1 li a{
+	color: #231f20;
+	align-content: center;
+}
+
+.footer1 li a:hover{
+	color: #f8f4f3;
+}
+form{
+    font-family: 'Arapey' ;
+    justify-items: center;
+   	background-color: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+}
+h1
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-align: center;
+    width:300px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+}
+h2{
+    font-family: 'Arapey' ;
+    font-size: 18px;
+    text-align: center;
+}
+h4{
+    font-family: 'Arapey' ;
+    font-size: 10px;
+    padding: 1px;
+    padding-left: 16px;
+    margin: 1px;
+
+}
+p{
+    font-family: 'Arapey' ;
+    font-size: 14px;
+}
+#top-items{
+    display: flex;
+    flex-wrap: wrap;
+    height: 230px;
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+}
+#health-options{
+    width: 410px;
+    height: 280px;
+}
+#diet-options{
+    width: 265px;
+     height: 280px;
+}
+#one-item{
+    width: 880px;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     background-color: white;
+    margin : 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 30px 30px;
+    
+}
+img{
+    padding:auto;
+    margin:auto;
+    width: 200px;
+    height: 250px;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin:auto;
+    width: 400px;
+    background-color: #ffd8d8;
+}
+#basic-info{
+    height: auto;
+    width: 650px;
+    margin:5px;
+    padding:10px;
+    justify-content: center;
+    text-align: center;
+}
+#links{
+    font-family: 'Arapey' ;
+    font-size: 14px;
+}
+#servings{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding-top: 12px;
+}
+ul{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul li{
+    width: 175px;
+    padding-bottom: 2px;
+    height: auto;
+    display: flex;
+    border: .5px solid gray;
+    margin: 1px;
+    padding: 3px;
+    justify-content: center;
+    font-family: 'Arapey' ;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+@media only screen and (min-width: 630px) and (max-width: 950px) {
+    html{
+        width: 616px;
+    }
+    .footer {
+        position: absolute;
+        width: 567px;
+        background-color: white;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 30px 30px;
+    }
+    .footer li{
+        border: 0px;
+        padding-left:250px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+    .footer li a{
+        color: #231f20;
+        align-content: center;
+    }
+
+    .footer li a:hover{
+        color: #f8f4f3;
+    }
+    .footer1 {
+        position: absolute;
+        bottom: 0;
+        width: 567px;
+        background-color: white;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 30px 30px;
+    }
+    .footer1 li{
+        border: 0px;
+        padding-left:250px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+    .footer1 li a{
+        color: #231f20;
+        align-content: center;
+    }
+
+    .footer1 li a:hover{
+        color: #f8f4f3;
+    }
+    form{
+        font-size:13px;
+        width:588px;
+        padding: 1px;
+        margin:auto;
+        padding:10px;
+        margin-bottom:14px;
+    }
+    #top-items{
+        width:610px;
+        height:auto;
+       	justify-content: space-evenly;
+        display: flex;
+    	flex-wrap: wrap; 
+    }
+    #health-options{
+        width: 220px;
+        height: 220px;
+    }
+    #diet-options{
+        width: 180px;
+        height: 220px;
+    }
+    ul{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+	}
+	ul li{
+        width: 80px;
+        padding-bottom: 2px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: left;
+        border: .5px solid gray;
+        margin: 1px;
+        padding: 3px;
+        font-family: 'Arapey' ;
+        font-size: 13px;
+	}
+    #one-item{
+        width: 610px;
+        height: auto;
+        display:flex;
+        flex-wrap: wrap;
+        background-color: white;
+        margin-left: auto;
+        padding: 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 30px 30px;
+	}
+    img{
+        padding:auto;
+        margin:auto;
+        width: 150px;
+        height: 175px;
+	}
+    #servings{
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 6px;
+    }
+  }
+  @media only screen and (min-width: 10px) and (max-width: 629px) {
+      html{
+        width: 320px;
+    	}
+      form{
+        font-size:12px;
+        width:290px;
+        padding: 1px;
+        margin:auto;
+        padding:10px;
+        margin-bottom:5px;
+    }
+      #recipeResults{
+          margin-top: 20px;
+      }
+      .footer1 {
+        position: fixed;
+        bottom: 0;
+        width: 270px;
+        background-color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-color: grey;
+        border-width: 2px;
+        border-radius: 30px 30px;
+    }
+    .footer1 li{
+        border: 0px;
+        padding-left:75px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+    .footer1 li a{
+        color: #231f20;
+        align-content: center;
+    }
+
+    .footer1 li a:hover{
+        color: #f8f4f3;
+    }
+      .footer {
+        position: absolute;
+        width: 280px;
+        background-color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 30px 30px;
+    }
+    .footer li{
+        border: 0px;
+        padding-left:75px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+    }
+    .footer li a{
+        color: #231f20;
+        align-content: center;
+    }
+
+    .footer li a:hover{
+        color: #f8f4f3;
+    }
+      h3{
+          width: 300px;
+      }
+    #top-items{
+        margin-top: 16px;
+        margin-bottom: 60px;
+        width:310px;
+        height:auto;
+       	justify-content: space-evenly;
+        display: flex;
+    	flex-wrap: wrap; 
+    }
+    #health-options{
+        width: 180px;
+        height: auto;
+        margin:auto;
+    }
+    #diet-options{
+        width: 180px;
+        height: auto;
+        margin:auto;
+    }
+    ul{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+	}
+	ul li{
+        width: 95px;
+        padding-bottom: 2px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: left;
+        border: .5px solid gray;
+        margin: 1px;
+        padding: 3px;
+        font-family: 'Arapey' ;
+        font-size: 13px;
+	}
+    #one-item{
+        width: 310px;
+        height: auto;
+        display:flex;
+        flex-wrap: wrap;
+        background-color: white;
+        margin-left: auto;
+        padding: 10px;
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 30px 30px;
+	}
+    img{
+        padding:auto;
+        margin:auto;
+        width: 115px;
+        height: 135px;
+	}
+    #servings{
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 6px;
+        margin:auto;
+    }
+  }
