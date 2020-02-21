@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gilda+Display|Arapey&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Recipe Finder</h1>
+  <form>
+      <div id="input-stuff">
+      <label>Enter a food item</label>
+      <input id="recipeSearch" type="text"></input>
+      <label>ie: chicken, cheesecake, carrots...</label>
+    </div>
+    <div id="input-stuff">
+        <label>Enter diet restrictions*</label>
+        <input id="dietRestrictions" type="text"></input>
+        <label> See below for options</label>
+    </div> 
+    <div id="input-stuff">
+        <label>Enter health restrictions*</label>
+        <input id="health" type="text"></input>
+        <label> See below for options</label>
+    </div> 
+    <div> 
+      <label>Enter calorie range</label>
+      <label> lowest* </label>
+      <input id="lowCal" type="text"></input>
+      <label> highest* </label>
+      <input id="highCal" type="text"></input>
+      <input id="timeSubmit" type="submit" value="Submit"></input>
+    </div>
+    <h4>* means optional</h4>
+    </form>
+  <div id= "top-items"> 
+      <div id= "diet-options">
+          <h2> Diet Restrictions </h2>
+          <ul>
+            <li> balanced</li>
+            <li> high-fiber</li>
+            <li> high-protein	</li>
+            <li> low-carb	</li>
+            <li> low-fat</li>
+            <li> low-sodium</li>
+          </ul>
+      </div>
+    <div id= "health-options">
+      <h2> Health Restrictions</h2>
+      <ul>
+        <li> alcohol-free</li>
+        <li> celery-free</li>
+        <li> dairy-free	</li>
+        <li> low-potassium</li>
+        <li> gluten-free</li>
+        <li> keto-friendly</li>
+        <li> peanut-free</li>
+        <li> soy-free</li>
+        <li> sugar-conscious</li>
+        <li> vegan</li>
+        <li> vegetarian</li>
+        <li> kidney-friendly</li>
+      </ul>
+    </div>
+    
+</div>
+
+<div id="recipeResults">
+    <ul class = "footer1">
+        <li> <a href="https://github.com/briannamathre/creative1.git">GitHub</a>
+      </ul>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js">
+  </script>
+
+
+</body>
+
+</html>
